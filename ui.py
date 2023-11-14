@@ -22,10 +22,10 @@ class QuizUi():
         self.score_label.grid(row=0, column=1)
 
         # Buttons
-        self.true_button_img = tk.PhotoImage(file="images/true.png")
-        self.true_button = tk.Button(image=self.true_button_img, padx=20, pady=20, borderwidth=0)
+        true_button_img = tk.PhotoImage(file="images/true.png")
+        self.true_button = tk.Button(image=true_button_img, padx=20, pady=20, borderwidth=0)
         self.true_button.grid(row=2, column=0, padx=20, pady=20)
-        self.false_button_img = tk.PhotoImage(file="images/false.png")
-        self.false_button = tk.Button(image=self.false_button_img, padx=20, pady=20, borderwidth=0)
+        false_button_img = tk.PhotoImage(file="images/false.png")
+        self.false_button = tk.Button(image=false_button_img, padx=20, pady=20, borderwidth=0)
         self.false_button.grid(row=2, column=1, padx=20, pady=20)
         self.window.mainloop()
